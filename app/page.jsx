@@ -13,7 +13,6 @@ const Home = () => {
         Prompt Flow ia open source AI prompting tool for modern world to
         discover, create and share prompts
       </p>
-      {/* Feed */}
       <Feed />
     </section>
   );
