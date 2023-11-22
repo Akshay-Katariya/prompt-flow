@@ -10,7 +10,7 @@ const Home = () => {
         <span className="orange_gradient text-center">AI-Powered Prompts</span>
       </h1>
       <p className="desc text-center">
-        Prompt Flow ia open source AI prompting tool for modern world to
+        Prompt Flow an open source AI prompting tool for modern world to
         discover, create and share prompts
       </p>
       <Feed />
