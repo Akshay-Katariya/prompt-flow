@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# PromptFlow - Discover & Share AI-Powered Prompts with NextAuth.js
 
-First, run the development server:
+Welcome to PromptFlow, an open-source AI prompting tool designed for the modern world. With PromptFlow, you can discover, create, and share prompts powered by advanced artificial intelligence. Additionally, PromptFlow now features implemented login functionality using NextAuth.js.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Demo 🚀
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Explore the live demo: [PromptFlow Demo](https://promptflow.netlify.app/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features 🤩
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   **Discover:** Explore a vast collection of AI-generated prompts for various creative and professional endeavors.
+-   **Create:** Generate your own unique prompts tailored to your specific needs and interests.
+-   **Search:** Advance search with tags, username or directly using prompts.
+-   **Login:** Enjoy a personalized experience by logging in with NextAuth.js.
 
-## Learn More
+## Technologies Used 👨‍💻
 
-To learn more about Next.js, take a look at the following resources:
+PromptFlow is built using the following technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Next.js:** A React framework for building fast and scalable web applications.
+-   **MongoDB:** A NoSQL database used for efficient data storage and retrieval.
+-   **Mongoose:** An elegant MongoDB object modeling tool for Node.js.
+-   **NextAuth.js:** A complete open-source authentication solution for Next.js applications.
+-   **Netlify:** The project is deployed on Netlify and can be accessed at [https://promptflow.netlify.app/](https://promptflow.netlify.app/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Getting Started 🛠️
 
-## Deploy on Vercel
+To get started with PromptFlow locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1.  Clone the repository: `git clone https://github.com/akshay-katariya/PromptFlow.git`
+2.  Install dependencies: `npm install`
+3.  Run the development server: `npm run dev`
+4.  Open your browser and visit [http://localhost:3000](http://localhost:3000/)
