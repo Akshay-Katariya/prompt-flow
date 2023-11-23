@@ -22,6 +22,12 @@ const Feed = () => {
   const [searchedResults, setSearchedResults] = useState([]);
   const [searchTimeout, setSearchTimeout] = useState(null);
 
+  const handleTagClick = (tagName) => {
+    setSearchText(tagName);
+    const searchResult = filterPrompts(tagName);
+    setSearchedResults(searchResult);
+  };
+
   const filterPrompts = (text) => {
     const regex = new RegExp(text, "i"); // 'i' flag for case-insensitive search
     return posts.filter(
@@ -68,9 +74,12 @@ const Feed = () => {
         />
       </form>
       {searchText ? (
-        <PromptCardList data={searchedResults} handleTagClick={() => {}} />
+        <PromptCardList
+          data={searchedResults}
+          handleTagClick={handleTagClick}
+        />
       ) : (
-        <PromptCardList data={posts} handleTagClick={() => {}} />
+        <PromptCardList data={posts} handleTagClick={handleTagClick} />
       )}
     </section>
   );
