@@ -23,7 +23,7 @@ const Feed = () => {
   const handleSearchChange = (e) => {};
 
   const fetchPosts = async () => {
-    const response = await fetch("/api/prompt");
+    const response = await fetch("/api/prompt", { cache: "no-cache" });
     const data = await response.json();
     setPosts(data);
   };
