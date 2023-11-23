@@ -1,5 +1,5 @@
 
-# PromptFlow - Discover & Share AI-Powered Prompts with NextAuth.js
+# PromptFlow - Discover & Share AI-Powered Prompts
 
 Welcome to PromptFlow, an open-source AI prompting tool designed for the modern world. With PromptFlow, you can discover, create, and share prompts powered by advanced artificial intelligence. Additionally, PromptFlow now features implemented login functionality using NextAuth.js.
 
